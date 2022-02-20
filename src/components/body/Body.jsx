@@ -7,12 +7,14 @@ import number2 from '../../assets/number2.png';
 import number3 from '../../assets/number3.png';
 import search from '../../assets/search.png';
 import sourire from '../../assets/sourire.png';
-import background from '../../assets/bluetexture.jpg';
+import background1 from '../../assets/whitetexture.png';
+import background2 from '../../assets/bluetexture.jpg';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit';
 
 function Body() {
     return (
         <div className='body'>
+            <div style={{backgroundImage:`url(${background1})`}}>
             <MDBContainer breakpoint="md" className='container-fluid'>
                 <MDBRow className='d-flex align-items-center mb-3 mt-3'>
                     <MDBCol size='md' className='col-md-6'>
@@ -47,15 +49,16 @@ function Body() {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div style={{ backgroundImage: `url(${background})` }}>
+            </div>
+            <div style={{ backgroundImage: `url(${background2})` }}>
                 <MDBContainer breakpoint="md" className='container-fluid'>
                     <MDBRow>
-                        <MDBCol className='col-md-12 mt-5 text-center'>
-                            <h3 className='h3-white' style={{fontSize: 20}}>
-                                Lemplette, c’est un panier moyen de <span style={{color: '#ffc107',fontSize: 25}}>65 euros par clients</span>,
-                                des <span style={{color: '#ffc107',fontSize: 25 }}>dizaines de demandes</span> par jour près de chez vous
-                                <span style={{color: '#ffc107',fontSize: 25}}> 80 % de réussite</span> sur les produits que vous recherchez
-                                {"\n"} Et c’est surtout une activité économique <span style={{color: '#ffc107',fontSize: 25}}>locale</span>.
+                        <MDBCol className='col-md-12 mt-5 mb-3 text-center'>
+                            <h3 className='h3-white' style={{fontSize: 26, marginTop:20}}>
+                                Lemplette, c’est un panier moyen de <span style={{color: '#ffc107',fontSize: 32}}>65 euros par clients</span>,
+                                des <span style={{color: '#ffc107',fontSize: 32 }}>dizaines de demandes</span> par jour près de chez vous
+                                <span style={{color: '#ffc107',fontSize: 32}}> 80 % de réussite</span> sur les produits que vous recherchez
+                                {"\n"} Et c’est surtout une activité économique <span style={{color: '#ffc107',fontSize: 32}}>locale</span>.
                             </h3> 
                          </MDBCol>
                     </MDBRow>
@@ -111,8 +114,10 @@ function Body() {
                         Lancer une recherche
                     </MDBBtn>
                 </MDBCol>
+                
                 </MDBContainer> 
             </div>
+            <div style={{backgroundImage:`url(${background1})`}}>
             <MDBContainer breakpoint="sm" className='container-fluid'>
                 <MDBRow className='d-flex align-items-center mb-3'>
                     <MDBCol size='md' className='col-md-6 offset-md-1 mt-2 mb-4 text-end'>
@@ -135,6 +140,7 @@ function Body() {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer> 
+            </div>
         </div>
     )
 }
