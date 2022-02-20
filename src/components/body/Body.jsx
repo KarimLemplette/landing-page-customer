@@ -87,11 +87,11 @@ function Body() {
                         </MDBCol>
                     </MDBRow>
                     <MDBRow className='mt-3 mb-3'>
-                    <MDBCol size='md' className='col-md-2 mt-2 responsive-image-body-width' >
+                    <MDBCol size='md' className='col-md-2 mt-3 offset-md-1 responsive-image-body-width' >
                         <img src={number2} alt='' className='img-fluid'/>
                         </MDBCol>
                         <MDBCol className='col-md-9 mt-2' >
-                        <p className='p-white'>En 24h, Les commerçants Lemplette vous garantissent une réponse sur le stock de votre produit, ou des produits similaires qui correspondent à votre recherche</p>
+                        <p className='p-white'>En 24h, les commerçants Lemplette vous garantissent une réponse sur le stock de votre produit, ou des produits similaires qui correspondent à votre recherche</p>
                         </MDBCol>
                     </MDBRow>
                     <MDBRow className='mt-3 mb-3'>
