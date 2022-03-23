@@ -60,7 +60,7 @@ function Mission() {
                     <MDBCol size='md' className='col-md-6 mt-2 mb-4 text-end'>
                         <p className='p-white responsive-text-center'>
                             De retour dans leurs régions, un constat s'est imposé, comment reconnecter avec la vie locale et pouvoir échanger avec les commerces environnants ?
-                            En effet, trouver un produit près de chez soi, sans avoir à passer par des géants du commerce est un vrai parcours du 
+                            En effet, trouver un produit près de chez soi, sans tomber sur les sites des géants du e-commerce est un vrai parcours du 
                             <strike > combattant</strike> commerçant. 
                         </p>
                     </MDBCol>
@@ -102,10 +102,10 @@ function Mission() {
                 <MDBRow className='d-flex align-items-center mt-1 mb-3'>
                     <MDBCol size='md' className='col-md-6 offset-md-1 mt-2 mb-4 text-end'>
                         <p className='p-black responsive-text-center'>
-                          Passer par le service de Lemplette, c'est donner la possibilité aux commerçants qui vous entoure, les mêmes armes
+                          Passer par le service de Lemplette, c'est donner la possibilité aux commerçants qui vous entourent, les mêmes armes
                           que le ecommerce, en vous proposant des produits correspondants à ce que vous recherchez, ou très similaire. C'est aussi vous 
-                          prouver que<span style={{color: '#ffc107'}}> les commerçants ont aussi de très bon prix </span>, les prix sont sensiblement les mêmes. 
-                          C'est aussi réintroduire une notion fondamentale au commerce : l'échange entre le client et le commerçant. 
+                          prouver que<span style={{color: '#ffc107'}}> les commerçants ont aussi de très bon prix </span>. 
+                          Nous voulons réintroduire une notion fondamentale au commerce : l'échange entre le client et le commerçant. 
                           C'est donner plus de travail à l'économie locale ! 
                         </p>
                     </MDBCol>

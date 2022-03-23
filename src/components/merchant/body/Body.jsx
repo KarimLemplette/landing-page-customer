@@ -22,15 +22,15 @@ function Merchant() {
                 <MDBRow className='d-flex align-items-center mb-3 mt-3'>
                     <MDBCol size='md' className='col-md-6 mt-2'>
                         <h2 className='body-h2'>
-                            Etre un 
+                            Être un 
                             <span style={{color: '#ffc107'}}> Commerçant {"\n"}Lemplette</span>
                         </h2>
                         <p className='p-black'>
                             
-                            <u> <i> {"\n"} Pour Lemplette, Etre citoyen c’est avant tout comprendre et interagir avec le monde qui nous entoure </i></u>
+                            <u> <i> {"\n"} Pour Lemplette, être citoyen c’est avant tout comprendre et interagir avec le monde qui nous entoure </i></u>
                         </p>
                         <p className='p-black'>
-                        Etre un commerçant Lemplette, c’est faire partie d’un réseau de professionnels dont l’unique but est de dynamiser la vie locale, 
+                        Être un commerçant Lemplette, c’est faire partie d’un réseau de professionnels dont l’unique but est de dynamiser la vie locale, 
                         et d’offrir plus d’interactions sociales entre chaque citoyen.
                         </p>
                         <MDBRow className='d-flex align-items-center mt-3'>
