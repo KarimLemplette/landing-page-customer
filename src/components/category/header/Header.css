@@ -11,10 +11,7 @@
     text-align: left;
 }
 
-.h1-black {
-    color: #000000;
-    font-size: 45px;
-}
+
 
 @media (max-width: 500px) {  
     .responsive-image-header-width

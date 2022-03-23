@@ -1,20 +1,23 @@
-.header-p {
+.header-merchant-p {
     color: #FFFFFF;
     text-align: left;
     white-space: pre-line;
-    width: 75%;
-    margin-top: 8%;
+    width: 100%;
+    margin-top: 0%;
 }
 
-.header-h2 {
+.header-merchant-h2 {
     color: #ffffff;
     text-align: left;
+    margin-left: 10%;
+  
+}
+.img-fluid-tick {
+    width: 60%;
+  
 }
 
-.h1-black {
-    color: #000000;
-    font-size: 45px;
-}
+
 
 @media (max-width: 500px) {  
     .responsive-image-header-width
@@ -22,19 +25,25 @@
     width: 95%;
     height: auto;
 }
-    .responsive-header-h2
+    .responsive-header-merchant-h2
 {
-    margin-left: 14px;
+    margin-left: 20px;
     font-size: 50px;
+
 }
-.responsive-header-p
+.responsive-header-merchant-p
 {
-    margin-left: 14px;
     color: #FFFFFF;
 }
-.responsive-container-header
+.responsive-container-merchant-header
 {
     margin-bottom: 50px;
+}
+
+.responsive-img {
+    width: 60%;
+    height: auto;
+  
 }
   }
   @media (min-width: 500px) {  

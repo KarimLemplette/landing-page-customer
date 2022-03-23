@@ -1,9 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import background from '../../assets/bluetexture.jpg';
+import background from '../../../assets/purpletexture.png';
 import { MDBFooter, MDBContainer, MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import { Link } from "react-router-dom";
-
 
 function Footer () {
   return (
@@ -22,9 +21,7 @@ function Footer () {
                         <h5 className='fw-bold mb-4 footer-text'>À Propos</h5>
                         <ul className='list-unstyled mb-0'>
                             <li>
-                            <div className='footer-text'>
-                                <Link to ={`/notremission`} style={{ color: '#FFF' }}>Pourquoi Lemplette ?</Link>
-                            </div> 
+                            <Link to ={`/notremission`} style={{ color: '#FFF', fontWeight: 'bold' }}>Pourquoi Lemplette ?</Link>
                             </li>
                             <li>
                                 <a href='#!' className='footer-text'>

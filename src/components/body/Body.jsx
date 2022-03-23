@@ -10,6 +10,8 @@ import sourire from '../../assets/sourire.png';
 import background1 from '../../assets/whitetexture.png';
 import background2 from '../../assets/bluetexture.jpg';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit';
+import { Link } from "react-router-dom";
+
 
 function Body() {
     return (
@@ -137,6 +139,45 @@ function Body() {
                     </MDBCol>
                     <MDBCol className='col-md-5 mt-2 mb-4'>
                         <img src={sourire} alt='' className='img-fluid'/> 
+                    </MDBCol>
+                </MDBRow>
+            </MDBContainer> 
+            <MDBContainer breakpoint="sm" className='container-fluid'>
+                <MDBRow className='d-flex align-items-center mb-3'>
+                    <MDBCol size='md' className='col-md-10 offset-md-3 mt-2 mb-4 '>
+                        <h2 class="responsive-text-center" >Tous <span style={{color:'#ffc107'}}> les commerces à proximité </span>de</h2>
+                    </MDBCol>
+                </MDBRow>
+                <MDBRow className='d-flex align-items-center mb-3'>
+                    <MDBCol size='md' className='col-md-3 offset-md-1 mt-2 mb-4 '>
+                        <Link to ="/nantes"state={{ CityName: "Nantes", CityNameUrl: "nantes" }}>Nantes{"\n"} </Link>
+                        <Link to ="/reze"state={{ CityName: "Rézé", CityNameUrl: "reze" }}>Rézé{"\n"} </Link>
+                        <Link to ="/saintnazaire"state={{ CityName: "Saint-Nazaire", CityNameUrl: "saint-nazaire" }}>Saint-Nazaire{"\n"} </Link>
+                        <Link to ="/rennes"state={{ CityName: "Rennes" , CityNameUrl: "rennes"}}>Rennes{"\n"} </Link>
+                        <Link to ="/bordeaux"state={{ CityName: "Bordeaux" , CityNameUrl: "bordeaux"}}>Bordeaux{"\n"} </Link>
+                        <Link to ="/reims"state={{ CityName: "Reims", CityNameUrl: "reims" }}>Reims{"\n"} </Link>
+                        <Link to ="/montpellier"state={{ CityName: "Montpellier", CityNameUrl: "montpellier" }}>Montpellier{"\n"} </Link>
+                        <Link to ="/lille"state={{ CityName: "Lille" , CityNameUrl: "lille"}}>Lille{"\n"} </Link>     
+                    </MDBCol>
+                    <MDBCol size='md' className='col-md-3 offset-md-1 mt-2 mb-4 '>
+                        <Link to ="/strasbourg"state={{ CityName: "Strasbourg" , CityNameUrl: "strasbourg"}}>Strasbourg{"\n"} </Link>
+                        <Link to ="/tours"state={{ CityName: "Tours", CityNameUrl: "tours" }}>Tours{"\n"} </Link>
+                        <Link to ="/lyon"state={{ CityName: "Lyon" , CityNameUrl: "lyon"}}>Lyon{"\n"} </Link>
+                        <Link to ="/dijon"state={{ CityName: "Dijon" , CityNameUrl: "dijon"}}>Dijon{"\n"} </Link>
+                        <Link to ="/rouen"state={{ CityName: "Rouen" , CityNameUrl: "rouen"}}>Rouen{"\n"} </Link>
+                        <Link to ="/toulon"state={{ CityName: "Toulon", CityNameUrl: "toulon" }}>Toulon{"\n"} </Link>
+                        <Link to ="/angers"state={{ CityName: "Angers" , CityNameUrl: "angers"}}>Angers{"\n"} </Link>
+                        <Link to ="/saintetienne"state={{ CityName: "Saint-Etienne" , CityNameUrl: "saint-etienne"}}>Saint-Étienne{"\n"} </Link>    
+                    </MDBCol>
+                    <MDBCol size='md' className='col-md-3 offset-md-1 mt-2 mb-4 '>
+                        <Link to ="/nimes"state={{ CityName: "Nîmes", CityNameUrl: "nimes" }}>Nîmes{"\n"} </Link>
+                        <Link to ="/nice"state={{ CityName: "Nice" , CityNameUrl: "nice"}}>Nice{"\n"} </Link>
+                        <Link to ="/toulouse"state={{ CityName: "Toulouse" , CityNameUrl: "toulouse"}}>Toulouse{"\n"} </Link>
+                        <Link to ="/paris"state={{ CityName: "Paris" , CityNameUrl: "paris"}}>Paris{"\n"} </Link>
+                        <Link to ="/marseille" state={{ CityName: "Marseille" , CityNameUrl: "marseille"}}>Marseille{"\n"} </Link>
+                        <Link to ="/niort"state={{ CityName: "Niort" , CityNameUrl: "niort"}}>Niort{"\n"} </Link>
+                        <Link to ="/larochelle"state={{ CityName: "La Rochelle", CityNameUrl: "larochelle" }}>La Rochelle{"\n"} </Link>
+                        <Link to ="/poitiers"state={{ CityName: "Poitiers", CityNameUrl: "poitiers" }}>Poitiers{"\n"} </Link>      
                     </MDBCol>
                 </MDBRow>
             </MDBContainer> 

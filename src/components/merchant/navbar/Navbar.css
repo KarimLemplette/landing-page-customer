@@ -1,0 +1,22 @@
+.navbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 500px) {  
+    .responsive-button-width
+{
+    font-size: 1vh;
+}
+  }
+
+.btn-primary {
+  background-color: #1559e8;
+}
+.btn-warning {
+    background-color: #ffc107;
+  }
+  .btn-secondary {
+    background-color: #9155f1;
+  }

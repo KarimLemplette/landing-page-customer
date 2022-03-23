@@ -1,0 +1,12 @@
+.navbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 500px) {  
+    .responsive-button-width
+{
+    font-size: 1vh;
+}
+  }
